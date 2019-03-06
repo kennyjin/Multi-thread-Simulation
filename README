@@ -1,0 +1,22 @@
+CS 537 project 2
+
+This is a shared memory producer/consumer program. For threads will be executed in this program, Reader, Munch1, Munch2 and Writer.
+
+Detailed description of these 4 threads can be found on the webpage:
+http://pages.cs.wisc.edu/~bart/537/programs/program2.html
+
+This program is written in C and can only be executed on Linux machines.
+
+Compiling
+
+This program uses GCC compiler and the pthread library. Since there is a makefile, just use "make" to compile the program.
+
+Running
+
+Here is an example of running:
+./prodcomm < input.txt > output.txt 2> error.txt
+
+Development Procedure
+
+We first implemented the synchronizd queue structure using monitor. Then we implemented 4 threads and the main program. 
+
